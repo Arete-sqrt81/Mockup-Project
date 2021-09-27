@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    
+    margin: 0;
+    /* height: 100vh; */
+    background-color: #fff;
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+
+
+}
+
+header {
+    background-color: rgb(226, 43, 141);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 400px;
+       
+}
+header h3, h1 {
+    margin: 10px;
+}
+
+/* header aside {
+    display: flex;
+    flex-direction: row;
+} */
+
+main {
+    background-color: #fff;
+    color: black;
+   
+    width: 1000px;
+    height: 500px;
+   
+
+}
+main h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.team img {
+    object-fit: cover;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    
+}
+
+main .team {
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 300px);
+    /* grid-template-rows: 20rem 5rem 10rem;
+    grid-template-areas:
+    "imgcesar imgthomas imgkai"
+    "nameCesar nameThomas nameKai"
+    "descCesar descThomas descKai"; */
+    font-size: 70%;
+}
+
+main .member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 
+main .imgcesar {
+    grid-area: imgcesar;
+    justify-self: center;
+    align-self: center;
+}
+
+main .imgthomas {
+    grid-area: imgthomas;
+    justify-self: center;
+    align-self: center;
+}
+
+main .imgkai {
+    grid-area: imgkai;
+    justify-self: center;
+    align-self: center;
+}
+
+main .nameCesar {
+    grid-area: nameCesar;
+    justify-self: center;
+    align-self: center;
+}
+ */
+
+aside {
+     width: 1000px;
+     height: 300px;
+     background-color: rgb(220, 220, 220);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ aside .gallery {
+     flex-direction: row;
+
+ }
+
+ .gallery img {
+     height: 10rem;
+     width: 10rem;
+     object-fit: cover;
+     padding: 0.5rem;
+ }
+
+.contact {
+    background-color: rgb(226, 43, 141);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 400px;
+}
+
+.contact aside {
+    background-color: rgb(226, 43, 141);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 1000px;
+    height: 300px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+
+}
+
+input[type=text]{
+    padding: 0.5rem 0.5rem;
+    margin: 0.3rem 0.5rem;
+}
+input[name=message]{
+    padding-bottom: 3rem;
+    margin: 0.3rem 0.5rem;
+}
+
+.form button {
+    margin: 0.3rem 0.5rem;
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+    padding: 0.5rem;
+}
+
+
+.map {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.map iframe {
+    width: 20rem;
+    height: 10rem;
+}
+
+.map p {
+    font-size: 50%;
+    text-align: center;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 40, 40);
+    width: 1000px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    font-size: 50%;
+    color: #fff;
+}
+
+.links p {
+    margin: 1rem;
+}
+
+footer .links img {
+    width: 3rem;
+    height: 3rem;
+}
+
